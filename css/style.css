@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #E6DF9A;
+}
+.top{
+    position: sticky;
+    top: 0;
+}
+.logo>nav>a{
+    font-size: 4rem;
+    text-align: center;
+    color: #C58940;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 1px 3px 2px rgba(49, 29, 29, 0.5);;
+}
+.chp-title>h1{
+    font-size: 1.2rem;
+}
+.chp-title>h1:nth-child(2){
+    font-size: 2.5rem;
+}
+.shloka{
+    padding: 10px 0px;
+}
+div>nav>a:hover{
+    color: #C58940;
+}
+main{
+    background-color: #E5BA73;
+    padding: 20px;
+}
+header{
+    background-color: #C58940;
+}
+main>ul{
+    list-style-type:decimal;
+    color: brown;
+}
+.offcanvas-body>div>ul{
+    list-style-type:decimal;
+    color: brown;
+}
+main>ul>li{
+    margin: 15px;
+}
+main>ul>li>a{
+    text-decoration: none;
+    color: brown;
+    font-size: 1.2rem;
+}
+.offcanvas-body>div>ul>li>a{
+    text-decoration: none;
+    color: brown;
+    font-size: 1.2rem;
+}
+.offcanvas-body>div>ul>li>a:hover{
+    color: burlywood;
+}
+main>ul>li>a:hover{
+    color: maroon;
+}
+section {
+    background-color: #C58940;
+    max-width: 600px;
+}
+section > p {
+    margin: 10px 0px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-align: justify;
+    background-color: #E6DF9A;
+}
+section > p > span > span{
+    font-size: 0.75rem;
+    display:block;
+    text-align: center;
+    margin: 10px 0px;
+}
+.chp-title, .shloka{
+    background-color: #E5BA73;
+    color: brown;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color: maroon;
+    color: khaki;
+}
+.hide, .adhyay-list, .chp-nav{
+    background-color: brown; 
+    color: /*#C58940*/lightgreen;
+    width: auto;
+    border-radius: 50px;
+    border: 0px;
+    cursor:pointer;
+    padding: 0.5px 15px;
+    font-size: 0.75rem;
+    margin-right: 5px;
+}
+.chp-nav>a{
+    color: lightgreen;
+    text-decoration: none;
+}
+.chp-nav>a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .logo>nav>a{
+        font-size: 2rem;
+    }
+    .chp-title>h1{
+        font-size: 0.95rem;
+    }
+    .chp-title>h1:nth-child(2){
+        font-size: 1.5rem;
+    }
+    .offcanvas-body>div>ul>li>a{
+        font-size: 1.5rem;
+        color: black;
+    }
+    .offcanvas-body>div>ul{
+        list-style-type:decimal;
+        list-style-position: inside;
+        color: black;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    .offcanvas-body>div>ul{
+        list-style-type:decimal;
+        list-style-position: inside;
+        color: black;
+        text-align: center;
+    }
+    .offcanvas-body>div>ul>li>a{
+        font-size: 1.5rem;
+        color: black;
+    }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+    .offcanvas-body>div>ul{
+        list-style-type:decimal;
+        list-style-position: inside;
+        color: black;
+        text-align: center;
+    }
+    .offcanvas-body>div>ul>li>a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+    }
+}
